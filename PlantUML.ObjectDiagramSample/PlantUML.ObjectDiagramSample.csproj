@@ -7,8 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <PackageReference Include="PlantUML.Creator" Version="1.0.2" />
+  </ItemGroup>-->
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlantUML.Logic\PlantUML.Logic.csproj" />
   </ItemGroup>
 
 </Project>
